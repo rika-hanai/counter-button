@@ -11,8 +11,8 @@ const counter = useCounterStore()
     <div class="flex justify-center mt-11 mb-2">
         <Decrement />
         <div class="px-4">
-            <p>count: {{ counter.counter }}</p>
-            <p>double: {{ counter.double }}</p>
+            <p>count : {{ counter.counter }}</p>
+            <p>double : {{ counter.double }}</p>
         </div>
         <Increment />
     </div>
